@@ -68,3 +68,5 @@ Contributions are what make the open-source community such an amazing place to l
 Wali - waliamedvd@gmail.com
 
 Project Link: [https://github.com/WaliAmed/food-delivery-app](https://github.com/WaliAmed/food-delivery-app)
+
+Android APK Link: [https://expo.dev/artifacts/eas/mtP42AowFCJ2DyZHgHbcVy.apk](https://expo.dev/artifacts/eas/mtP42AowFCJ2DyZHgHbcVy.apk)
