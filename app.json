@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "restaurant-reactnative-expo-app",
-    "slug": "restaurant-reactnative-expo-app",
-    "scheme": "restaurant-reactnative-expo-app",
+    "name": "food-delivery-app",
+    "slug": "food-delivery-app",
+    "scheme": "food-delivery-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

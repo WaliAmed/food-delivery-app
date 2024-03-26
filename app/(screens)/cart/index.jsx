@@ -103,7 +103,7 @@ export default function CartPage() {
                   alignItems: "center",
                   gap: w(3),
                 }}>
-                <Link href={"/menu"}>
+                <Link href={"/"}>
                   <Icon 
                     name="chevron-left"
                     size={f(3)}

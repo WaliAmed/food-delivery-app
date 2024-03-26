@@ -12,8 +12,8 @@ import { customTheme } from "@/utils/theme";
 import { useResponsiveScreen } from "@/hooks/useResponsiveScreen";
 import { useSelector, useDispatch } from "react-redux";
 import { setDrawer } from "@/store/drawer/drawerSlice";
-import { router } from "expo-router";
 import { calculateTextWidth_HOME } from "@/utils/utils";
+import { Link, router } from "expo-router";
 
 const SideBarIcons = () => {
   const dispatch = useDispatch();
@@ -68,7 +68,7 @@ export default function HomePage() {
     if (item === "menu") {
       router.navigate("/menu");
     }
-    if(item === "cart"){
+    if (item === "cart") {
       router.navigate("/cart");
     }
   };
@@ -96,11 +96,13 @@ export default function HomePage() {
             gap: w(3),
           }}
         >
-          <Icon
-            name="cart-outline"
-            size={30}
-            color={customTheme.colors.iconColorDark}
-          />
+          <Link href="/cart">
+            <Icon
+              name="cart-outline"
+              size={30}
+              color={customTheme.colors.iconColorDark}
+            />
+          </Link>
           <Icon
             name="bell-outline"
             size={30}
@@ -131,7 +133,7 @@ export default function HomePage() {
                 imageSource={item.imageSource}
                 title={item.title}
                 buttonText={item.buttonText}
-                onPress={() => console.log("Button pressed")}
+                onPress={() => router.navigate("chooseItem")}
                 style={{
                   marginHorizontal: "10px",
                 }}
@@ -147,7 +149,7 @@ export default function HomePage() {
           href="/menu"
         ></HomeComponent>
         <HomeComponent
-          mainLabel="Appy"
+          mainLabel="Apply"
           subLabel="Deal"
           href="/menu"
         ></HomeComponent>

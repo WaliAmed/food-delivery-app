@@ -1,7 +1,6 @@
 import { useResponsiveScreen } from "@/hooks/useResponsiveScreen";
 import { View, Image, TouchableOpacity, Animated } from "react-native";
 import { customTheme } from "@/utils/theme";
-import DaiyDeliLogo from "../assets/images/daily-deli.png";
 import { useSelector, useDispatch } from "react-redux";
 import { setDrawer } from "@/store/drawer/drawerSlice";
 import React, { useState, useEffect } from "react";

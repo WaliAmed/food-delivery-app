@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View } from "react-native";
 import { TextInput, HelperText } from "react-native-paper";
 import { useResponsiveScreen } from "@/hooks/useResponsiveScreen";
+import { customTheme } from "@/utils/theme";
 
 export const InputComponent = ({
   mode,
@@ -46,7 +47,7 @@ export const InputComponent = ({
           secureTextEntry ? (
             <TextInput.Icon
               icon={secureText ? "eye" : "eye-off"}
-              color="#f7901e"
+              color={customTheme.colors.primary}
               onPress={toggleSecureEntry}
               style={iconStyle}
             />

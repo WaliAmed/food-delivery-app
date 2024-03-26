@@ -33,7 +33,7 @@ export const HomeComponent = ({ mainLabel, subLabel, href = "/" }) => {
         <View style={{ display: "block", paddingLeft: 20 }}>
           <Text
             style={{
-              color: "#f29434",
+              color: customTheme.colors.primary,
               textTransform: "uppercase",
               fontSize: f(3),
               fontWeight: 800,

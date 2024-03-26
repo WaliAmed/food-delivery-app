@@ -97,10 +97,10 @@ const styles = StyleSheet.create({
   backgroundImage: {
     position: "absolute",
     zIndex: -1,
-    opacity: 0.2,
-    bottom: 0,
-    left: -5,
-    width: "55%",
-    height: "55%",
+    opacity: 0.1,
+    bottom: -45,
+    left: -36,
+    width: "85%",
+    height: "85%",
   },
 });
