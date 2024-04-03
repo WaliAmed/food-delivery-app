@@ -98,9 +98,9 @@ const styles = StyleSheet.create({
     position: "absolute",
     zIndex: -1,
     opacity: 0.1,
-    bottom: -45,
-    left: -36,
-    width: "85%",
-    height: "85%",
+    bottom: -1,
+    left: 5,
+    width: 95,
+    height: 145,
   },
 });
