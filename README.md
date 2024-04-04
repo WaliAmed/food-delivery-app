@@ -69,4 +69,4 @@ Wali - waliamedvd@gmail.com
 
 Project Link: [https://github.com/WaliAmed/food-delivery-app](https://github.com/WaliAmed/food-delivery-app)
 
-Android APK Link: [https://expo.dev/artifacts/eas/xizughmwM3oviUWAaez5qS.aab](https://expo.dev/artifacts/eas/xizughmwM3oviUWAaez5qS.aab)
+Android APK Link: [https://expo.dev/artifacts/eas/rP2AZz5Wzzt8g5KJ8EMXWL.apk](https://expo.dev/artifacts/eas/rP2AZz5Wzzt8g5KJ8EMXWL.apk)
