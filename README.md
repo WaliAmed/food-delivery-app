@@ -72,6 +72,7 @@ Project Link: [https://github.com/WaliAmed/food-delivery-app](https://github.com
 Android APK Link: [https://expo.dev/artifacts/eas/rP2AZz5Wzzt8g5KJ8EMXWL.apk](https://expo.dev/artifacts/eas/rP2AZz5Wzzt8g5KJ8EMXWL.apk)
 
 Screen Shots:
+
 ![image](https://github.com/WaliAmed/food-delivery-app/assets/100444054/6ab849f8-8558-4a3b-af87-77fb4e9d1bda)
 
 ![image](https://github.com/WaliAmed/food-delivery-app/assets/100444054/8bc479d3-28f5-4eff-920d-5cf6a1fc3b82)
